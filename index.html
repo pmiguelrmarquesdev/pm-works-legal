@@ -3,88 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Política de Privacidade — FutHub</title>
+<title>Pedro Marques — Documentos legais</title>
 <style>
   :root { color-scheme: light dark; }
-  body { font-family: system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height: 1.7; max-width: 780px; margin: 0 auto; padding: 24px 20px 64px; color: #1a1a1a; background: #fff; }
+  body { font-family: system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; color: #1a1a1a; background: #fff; }
   @media (prefers-color-scheme: dark) { body { color: #e6eaf0; background: #0f1419; } a { color: #6db3ff; } }
-  h1 { font-size: 1.7rem; margin-bottom: .2em; } h2 { font-size: 1.2rem; margin-top: 1.8em; }
-  .updated { color: #6b7280; font-size: .95rem; } ul { padding-left: 1.3em; } a { color: #2563eb; }
+  h1 { font-size: 1.7rem; margin-bottom: .4em; } ul { padding-left: 1.3em; } a { color: #2563eb; }
 </style>
 </head>
 <body>
-<h1>Política de Privacidade — FutHub</h1>
-<p class="updated">Última atualização: 30 de agosto de 2026</p>
-
-<p>A FutHub é uma aplicação Android independente que apresenta resultados, estatísticas, calendários e informação sobre transmissões de futebol. O responsável pelo tratamento é <strong>Pedro Marques</strong>, programador independente da FutHub, contactável através de <a href="mailto:pmiguelrmarquesdev@gmail.com">pmiguelrmarquesdev@gmail.com</a>. Esta política explica que dados são tratados quando utilizas a aplicação.</p>
-
-<h2 id="data-deletion">Pedido de eliminação de dados</h2>
-<p>Para pedir a eliminação dos teus dados, envia um email para <a href="mailto:pmiguelrmarquesdev@gmail.com?subject=Elimina%C3%A7%C3%A3o%20de%20dados%20%E2%80%94%20FutHub">pmiguelrmarquesdev@gmail.com</a> com o assunto “Eliminação de dados — FutHub”. Se já nos contactaste, usa o mesmo endereço para conseguirmos localizar a correspondência. Não envies identificadores do dispositivo nem informação adicional que não seja necessária.</p>
+<h1>Documentos legais</h1>
+<p>Políticas de privacidade, termos de utilização e outros documentos dos projetos de Pedro Marques.</p>
 <ul>
-  <li><strong>Dados eliminados pelo programador:</strong> eliminaremos as mensagens de contacto e anexos que consigamos associar ao endereço do pedido. Normalmente são conservados até 12 meses após o encerramento do assunto, mas podem ser apagados antes mediante um pedido válido, salvo obrigação legal ou necessidade de defesa de direitos.</li>
-  <li><strong>Dados locais:</strong> clube, favoritos, preferências e cache existem apenas no dispositivo e não podem ser apagados remotamente por nós. Podes eliminá-los nas definições do Android, limpando os dados da FutHub, ou desinstalando a aplicação. Uma cópia de segurança Android existente, controlada pela Google, poderá ser restaurada posteriormente.</li>
-  <li><strong>Dados técnicos de fornecedores:</strong> identificadores pseudónimos de instalação ou publicidade, tokens de notificações, endereço IP, utilização e diagnóstico tratados pela Google ou API-Sports não são associados por nós ao teu email. Se não os conseguirmos relacionar contigo, não os podemos localizar ou apagar com base apenas no pedido. Podes alterar o consentimento em <strong>Definições → Opções de privacidade</strong>, repor ou eliminar o identificador de publicidade nas definições do Android e exercer os teus direitos diretamente perante o fornecedor aplicável.</li>
-  <li><strong>Dados que não existem:</strong> a FutHub não tem contas de utilizador nem guarda no Firestore nomes, emails, perfis pessoais, favoritos ou preferências associados a uma pessoa.</li>
+  <li><a href="./futhub/">FutHub</a></li>
+  <li><a href="./francesinhas/">Francesinhas</a></li>
 </ul>
-<p>Responderemos com o resultado da verificação, indicando o que foi eliminado e, quando aplicável, os dados que não conseguimos identificar ou que tenham de ser conservados e porquê.</p>
-
-<h2>1. Dados que guardas na aplicação</h2>
-<p>A FutHub não exige conta e não nos envia o teu nome, email ou uma lista das tuas escolhas. A aplicação guarda localmente no dispositivo:</p>
-<ul>
-  <li>o clube escolhido, incluindo o identificador, nome e endereço do emblema;</li>
-  <li>equipas favoritas e preferências de notificações;</li>
-  <li>idioma, conclusão do tutorial e preferências relativas a avisos de atualização;</li>
-  <li>imagens e outros dados técnicos em cache, para melhorar o desempenho.</li>
-</ul>
-<p>Consoante as definições do dispositivo, o Android pode incluir dados da aplicação numa cópia de segurança da conta Google ou numa transferência entre dispositivos e restaurá-los após uma reinstalação. Esse processo é controlado pelo Android/Google, não pela FutHub. Podes gerir as cópias de segurança nas definições do dispositivo e apagar os dados locais nas definições do Android ou desinstalando a aplicação; uma cópia existente poderá ser restaurada posteriormente.</p>
-
-<h2>2. Serviços necessários ao funcionamento</h2>
-<ul>
-  <li><strong>Firebase Cloud Firestore:</strong> fornece jogos, classificações, perfis e configuração da versão mínima. A FutHub não inclui as tuas escolhas pessoais nestas leituras. A Google pode receber endereço IP, identificadores da aplicação e dados técnicos da ligação.</li>
-  <li><strong>Firebase Cloud Messaging:</strong> quando ativas notificações, a instalação subscreve tópicos de jogos. A Google trata um identificador da instalação/token de registo e dados técnicos para entregar início, golos e fim do jogo. Não guardamos o token numa base de dados própria nem o associamos à tua identidade.</li>
-  <li><strong>API-Football/API-Sports:</strong> os dados desportivos chegam à app através do nosso backend, mas emblemas e fotografias podem ser descarregados diretamente dos servidores de imagens da API-Sports. Esses servidores recebem necessariamente dados técnicos como o endereço IP e o pedido da imagem.</li>
-  <li><strong>Google Play:</strong> a app pode consultar e apresentar atualizações disponíveis; a instalação é gerida pela Google Play.</li>
-</ul>
-
-<h2>3. Medição de utilização (Firebase Analytics)</h2>
-<p>Usamos o Firebase Analytics para perceber, de forma agregada, como a aplicação é utilizada, diagnosticar tendências e melhorar funcionalidades. O SDK regista automaticamente eventos como primeira abertura, sessões, aberturas e atualizações da app, bem como modelo do dispositivo, sistema operativo, idioma, localização geográfica aproximada e um identificador aleatório da instalação. No Android, o SDK pode também recolher o identificador de publicidade quando este está disponível. Não definimos um nome de utilizador nem tentamos identificar-te diretamente através destes dados.</p>
-
-<h2>4. Publicidade e escolhas de privacidade (Google AdMob/UMP)</h2>
-<p>A FutHub usa o Google AdMob para apresentar anúncios. O SDK de anúncios pode tratar endereço IP (incluindo para estimar localização geral), identificador de publicidade e outros identificadores do dispositivo/conta, interações com anúncios e com a aplicação e dados de diagnóstico, para apresentar e medir anúncios e prevenir fraude e abuso.</p>
-<p>Quando exigido na tua região, a Google User Messaging Platform apresenta um formulário antes de serem pedidos anúncios e regista as tuas escolhas. Dependendo da escolha e da legislação aplicável, os anúncios podem ser personalizados, não personalizados ou limitados. Quando a Google exige um ponto de reabertura, podes alterar ou retirar a escolha em <strong>Definições → Opções de privacidade</strong>. Também podes repor ou eliminar o identificador de publicidade nas definições do Android.</p>
-
-<h2>5. Quando nos contactas</h2>
-<p>O ecrã “Contactar” prepara uma mensagem e entrega-a à aplicação de email do dispositivo; a FutHub não a envia nem a guarda antes de confirmares o envio. Se enviares a mensagem, recebemos o endereço remetente, o conteúdo e quaisquer dados que decidas incluir. Usamo-los apenas para responder, prestar apoio e investigar ou corrigir o problema comunicado. Não envies informação confidencial nem dados pessoais de terceiros.</p>
-
-<h2>6. Finalidades e fundamentos</h2>
-<p>Tratamos os dados técnicos necessários para prestar as funcionalidades que pedes, como carregar conteúdo, entregar notificações e procurar atualizações. Tratamos contactos para responder ao teu pedido. Usamos medição agregada, fiabilidade e prevenção de fraude com base nos nossos interesses legítimos em operar, proteger e melhorar a FutHub, desde que esses interesses não prevaleçam sobre os teus direitos. Para publicidade personalizada e outros tratamentos em que a lei o exige, o fundamento é o consentimento recolhido no formulário de privacidade. Podes retirar o consentimento sem afetar a licitude do tratamento anterior.</p>
-
-<h2>7. Destinatários e transferências internacionais</h2>
-<p>Os dados podem ser tratados pela Google (Firebase, Analytics, AdMob, UMP, Google Play e cópias de segurança Android) e pela API-Sports (alojamento de imagens), na medida necessária aos serviços descritos. Estes fornecedores podem tratar dados fora do teu país, incluindo fora do Espaço Económico Europeu, usando os mecanismos de transferência e salvaguardas descritos nas respetivas políticas:</p>
-<ul>
-  <li><a href="https://policies.google.com/privacy">Política de Privacidade da Google</a></li>
-  <li><a href="https://firebase.google.com/support/privacy">Privacidade e segurança no Firebase</a></li>
-  <li><a href="https://support.google.com/admob/answer/6128543">AdMob e privacidade</a></li>
-  <li><a href="https://api-sports.io/privacy">Política de Privacidade da API-Sports</a></li>
-</ul>
-<p>Não vendemos os teus dados pessoais.</p>
-
-<h2>8. Retenção</h2>
-<p>Os dados locais permanecem até alterares as escolhas, limpares os dados ou desinstalares a aplicação, sem prejuízo de uma eventual cópia de segurança/restauro do Android. As subscrições de notificações permanecem até as desativares ou até o identificador expirar ou ser eliminado. A Google e a API-Sports conservam dados técnicos segundo as suas políticas e configurações de retenção. Conservamos mensagens de contacto apenas pelo tempo necessário para responder e tratar o assunto, normalmente até 12 meses após o seu encerramento, salvo obrigação legal ou necessidade de defesa de direitos.</p>
-
-<h2>9. Os teus direitos</h2>
-<p>Quando o RGPD ou legislação equivalente se aplica, podes pedir acesso, retificação, apagamento, limitação, oposição e portabilidade dos teus dados, bem como retirar consentimento. Como não temos contas nem uma base de dados que associe escolhas a uma pessoa, poderemos precisar das informações da tua mensagem para localizar um contacto anterior e podemos não conseguir relacionar contigo dados pseudónimos detidos exclusivamente por um fornecedor. Podes exercer os direitos pelo email abaixo. Tens também direito a apresentar reclamação à <a href="https://www.cnpd.pt/cidadaos/participacoes/">Comissão Nacional de Proteção de Dados</a> ou à autoridade de controlo do teu país.</p>
-
-<h2>10. Crianças</h2>
-<p>A FutHub destina-se a um público geral e não é dirigida a crianças com menos de 13 anos. Não recolhemos conscientemente dados diretamente fornecidos por crianças. Se acreditas que uma criança nos enviou dados pessoais, contacta-nos para os eliminarmos.</p>
-
-<h2>11. Segurança</h2>
-<p>Usamos serviços com transmissão cifrada e limitamos o tratamento aos dados necessários. Nenhum sistema é totalmente seguro; não podemos garantir segurança absoluta de transmissões, dispositivos ou serviços de terceiros.</p>
-
-<h2>12. Alterações</h2>
-<p>Podemos atualizar esta política para refletir alterações da aplicação, dos fornecedores ou da lei. Publicaremos aqui a versão atual e a respetiva data. Quando uma alteração for material, procuraremos assinalá-la na aplicação ou por outro meio adequado.</p>
-
-<h2>13. Contacto</h2>
-<p>Para questões ou pedidos de privacidade, contacta <a href="mailto:pmiguelrmarquesdev@gmail.com">pmiguelrmarquesdev@gmail.com</a>.</p>
 </body>
 </html>
